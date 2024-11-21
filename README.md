@@ -18,5 +18,5 @@ This project is part of Lab 1 of the ID2223 Scalable Machine Learning and Deep L
 ## 5. Additional Feature:
    - Enhance the model by adding a new feature: rolling air quality values for the previous 1-3 days.
 
-**The [dashboard](https://manjy0t.github.io/mlfs-book/) showing the air quality forecast for the next 8 days.
-**
+The [**dashboard**](https://manjy0t.github.io/mlfs-book/) showing the air quality forecast for the next 8 days.
+
