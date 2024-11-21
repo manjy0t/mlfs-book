@@ -1,10 +1,10 @@
 Air Quality Prediction for Nishitokyoshi,Shimohoya, Japan
 
 This project is part of Lab 1 of the ID2223 Scalable Machine Learning and Deep Learning course course. The main aim of the project is to forecast air quality (PM2.5 levels) for the next 7 days using historical and forecasted weather data, along with historical air quality data. Here are the steps to achieve this:
-1. Backfill Feature Pipeline:
+1.Backfill Feature Pipeline:
 -Download over a year of historical weather data and air quality data from external sources (such as Open-Meteo and the AQICN platform).
 -Load the air quality data into a CSV file and access the weather data via an API. Then, register both datasets as two Feature Groups in Hopsworks: one for weather data and one for air quality data.
-3. Daily Data Pipeline:
+2.Daily Data Pipeline:
 - Create a scheduled daily pipeline that downloads the previous day's weather data and air quality data, and forecasts air quality for the next 7 days.
 - Update the corresponding Feature Groups in Hopsworks.
 - Use GitHub Actions to automate the daily execution of this pipeline.
