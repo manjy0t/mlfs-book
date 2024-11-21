@@ -16,7 +16,7 @@ This project is part of Lab 1 of the ID2223 Scalable Machine Learning and Deep L
    - Develop a batch inference pipeline that downloads the registered model from Hopsworks.
    - Use the model to predict air quality for the next 7-10 days and display the predictions in a dashboard.
 ## 5. Additional Feature:
-   - The model is further enhanced by adding using rolling air quality to further optimize the model.
+   - The model is further optiized by adding rolling air quality features.
 
 ## **Results**
 
